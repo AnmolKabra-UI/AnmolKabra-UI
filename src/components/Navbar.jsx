@@ -52,7 +52,7 @@ const Navbar = ({ isMenuOpen, toggleMenu, scrollToContact, onLogoClick, onWorkNa
               <a href="/work" className="nav-link" onClick={handleWorkClick}>
                 View My Work
               </a>
-              <a href="/ResumeAK_07_25.pdf" download="Anmol_Kabra_Resume.pdf" className="nav-link nav-link-resume">
+              <a href="/Resume_Anmol_08_2025.pdf" download="Anmol_Kabra_Resume.pdf" className="nav-link nav-link-resume">
                 <Download className="icon" />
                 Download Resume
               </a>
@@ -86,7 +86,7 @@ const Navbar = ({ isMenuOpen, toggleMenu, scrollToContact, onLogoClick, onWorkNa
             <a href="/work" className="mobile-nav-link" onClick={handleWorkClick}>
               View My Work
             </a>
-            <a href="/ResumeAK_07_25.pdf" download="Anmol_Kabra_Resume.pdf" className="mobile-nav-link" onClick={toggleMenu}>
+            <a href="/Resume_Anmol_08_2025.pdf" download="Anmol_Kabra_Resume.pdf" className="mobile-nav-link" onClick={toggleMenu}>
               <Download className="icon" />
               Download Resume
             </a>
